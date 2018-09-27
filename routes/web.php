@@ -13,4 +13,14 @@
 
 Route::get('/', function () {
     return view('welcome');
+	});
+Route::get('/index', function () {
+    return view('index');
 });
+Route::get('/halamandua', function () {
+    return view('halamandua');
+});
+Route::get('/halamantiga', function () {
+    return view('halamantiga');
+});
+?>
