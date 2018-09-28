@@ -23,4 +23,7 @@ Route::get('/halamandua', function () {
 Route::get('/halamantiga', function () {
     return view('halamantiga');
 });
+
+Route::get('/septiya/tambah', 'Septiya@tambah');
+Route::resource('halaman','Septiya');
 ?>
