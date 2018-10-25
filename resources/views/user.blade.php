@@ -5,7 +5,7 @@
         <!-- Add Your Content Inside -->
         <div class="content">
             <!-- Remove This Before You Start -->
-            <h1>Table Mahasiswa</h1>
+            <h1>Table User</h1>
             @if(Session::has('alert-success'))
                 <div class="alert alert-success">
                     <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
@@ -18,8 +18,8 @@
                     <th>No.</th>
                     <th>Nama</th>
                     <th>Email</th>
-                    <th>No. HP</th>
-                    <th>Alamat</th>
+                    <th>Username</th>
+                    <th>Password</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -29,8 +29,8 @@
                         <td>{{ $no++ }}</td>
                         <td>{{ $d->nama }}</td>
                         <td>{{ $d->email }}</td>
-                        <td>{{ $d->nohp }}</td>
-                        <td>{{ $d->alamat }}</td>
+                        <td>{{ $d->username }}</td>
+                        <td>{{ $d->password }}</td>
                         <td>
                             <form action="{{ route('mahasiswa.destroy', $d->id) }}" method="post">
                                 {{ csrf_field() }}

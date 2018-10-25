@@ -27,4 +27,5 @@ Route::get('/halamantiga', function () {
 Route::get('/septiya/tambah', 'Septiya@tambah');
 Route::resource('halaman','Septiya');
 Route::resource('mahasiswa','Mahasiswa');
+Route::resource('user','User');
 ?>
