@@ -20,6 +20,7 @@
                     <th>Email</th>
                     <th>No. HP</th>
                     <th>Alamat</th>
+					<th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>

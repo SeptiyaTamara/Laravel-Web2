@@ -40,12 +40,32 @@
                 <a href="/">Home</a>
             </li>
             <li class="main-nav">
-                <a href="/halamandua">- Contoh</a>
+                <a href="/halamandua">Contoh</a>
 				<ul class="main-nav">
 					<li><a href="/halaman/create">Create</a></li>
-					<li><a href="/septiya/tambah">Tambah</a></li>
+					<li><a href="/halaman/create">Halaman Dua</a></li>
+					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
 				</ul>
             </li>
+			
+			<li class="main-nav">
+                <a href="/mahasiswa">Mahasiswa</a>
+				<ul class="main-nav">
+					<li><a href="/mhs">Create</a></li>
+					<li><a href="/halaman/create">Halaman Dua</a></li>
+					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
+				</ul>
+            </li>
+			
+			<li class="main-nav">
+                <a href="/user">User</a>
+				<ul class="main-nav">
+					<li><a href="/halaman/create">Create</a></li>
+					<li><a href="/halaman/create">Halaman Dua</a></li>
+					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
+				</ul>
+            </li>
+			
            
         </ul>
     </aside>

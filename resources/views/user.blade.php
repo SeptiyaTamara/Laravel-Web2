@@ -20,6 +20,7 @@
                     <th>Email</th>
                     <th>Username</th>
                     <th>Password</th>
+					 <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
