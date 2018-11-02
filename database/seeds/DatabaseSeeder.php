@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
 		 $this->call(MahasiswaSeeder::class);
-		  $this->call(UserSeeder::class);
+		 $this->call(UserSeeder::class);
+		  $this->call(AdminSeeder::class);
     }
 }

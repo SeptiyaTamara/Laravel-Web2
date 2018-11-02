@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\TabelUser;
+use App\TabelAdmin;
 
-class User extends Controller
+class Admin extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,8 @@ class User extends Controller
      */
     public function index()
     {
-        $data = TabelUser::all();
-		return view('user',compact('data'));
+        $data = TabelAdmin::all();
+		return view('admin',compact('data'));
     }
 
     /**
@@ -25,7 +25,7 @@ class User extends Controller
      */
     public function create()
     {
-        return view('usr');
+         return view('adm');
     }
 
     /**
@@ -42,7 +42,7 @@ class User extends Controller
 		$data->username = $request->username;
 		$data->password = $request->password;
 		$data->save();
-		return redirect()->route('user.index')->with('alert-success','Berhasil Menambahkan Data!');
+		return redirect()->route('admin.index')->with('alert-success','Berhasil Menambahkan Data!');
     }
 
     /**

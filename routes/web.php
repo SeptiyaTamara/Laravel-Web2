@@ -26,9 +26,16 @@ Route::get('/halamantiga', function () {
 Route::get('/mhs', function () {
     return view('mhs');
 });
+Route::get('/usr', function () {
+    return view('usr');
+});
+Route::get('/adm', function () {
+    return view('adm');
+});
 
 Route::get('/septiya/tambah', 'Septiya@tambah');
 Route::resource('halaman','Septiya');
 Route::resource('mahasiswa','Mahasiswa');
 Route::resource('user','User');
+Route::resource('admin','Admin');
 ?>

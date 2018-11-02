@@ -5,7 +5,7 @@
         <!-- Add Your Content Inside -->
         <div class="content">
             <!-- Remove This Before You Start -->
-            <h1>Table User</h1>
+            <h1>Table Admin</h1>
             @if(Session::has('alert-success'))
                 <div class="alert alert-success">
                     <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
@@ -20,7 +20,7 @@
                     <th>Email</th>
                     <th>Username</th>
                     <th>Password</th>
-					 <th>Aksi</th>
+					<th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -33,10 +33,10 @@
                         <td>{{ $d->username }}</td>
                         <td>{{ $d->password }}</td>
                         <td>
-                            <form action="{{ route('user.destroy', $d->id) }}" method="post">
+                            <form action="{{ route('admin.destroy', $d->id) }}" method="post">
                                 {{ csrf_field() }}
                                 {{ method_field('DELETE') }}
-                                <a href="{{ route('user.edit',$d->id) }}" class=" btn btn-sm btn-primary">Edit</a>
+                                <a href="{{ route('admin.edit',$d->id) }}" class=" btn btn-sm btn-primary">Edit</a>
                                 <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
                             </form>
                         </td>
