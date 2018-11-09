@@ -29,6 +29,9 @@ Route::get('/mhs', function () {
 Route::get('/usr', function () {
     return view('usr');
 });
+Route::get('/file', function () {
+    return view('file');
+});
 Route::get('/adm', function () {
     return view('adm');
 });
@@ -38,4 +41,5 @@ Route::resource('halaman','Septiya');
 Route::resource('mahasiswa','Mahasiswa');
 Route::resource('user','User');
 Route::resource('admin','Admin');
+Route::resource('file','File');
 ?>

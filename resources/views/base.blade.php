@@ -65,9 +65,9 @@
 					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
 				</ul>
             </li><li class="main-nav">
-                <a href="/admin">Admin</a>
+                <a href="/file">File</a>
 				<ul class="main-nav">
-					<li><a href="/adm">Create</a></li>
+					<li><a href="/file/create">Create</a></li>
 					<li><a href="/halaman/create">Halaman Dua</a></li>
 					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
 				</ul>
