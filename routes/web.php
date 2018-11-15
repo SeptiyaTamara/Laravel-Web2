@@ -42,4 +42,5 @@ Route::resource('mahasiswa','Mahasiswa');
 Route::resource('user','User');
 Route::resource('admin','Admin');
 Route::resource('file','File');
+Route::resource('barang','Barang');
 ?>

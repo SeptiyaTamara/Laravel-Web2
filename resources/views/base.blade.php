@@ -72,7 +72,9 @@
 					<li><a href="/septiya/tambah">Halaman Tiga</a></li>
 				</ul>
             </li>
-			
+			 </li><li class="main-nav">
+                <a href="/barang">Barang</a>
+			</li>
            
         </ul>
     </aside>
